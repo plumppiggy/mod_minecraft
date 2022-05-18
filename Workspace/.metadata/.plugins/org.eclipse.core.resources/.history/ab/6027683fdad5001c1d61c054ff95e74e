@@ -1,0 +1,12 @@
+package com.Elysia.elysia;
+
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod("elysia")
+public class elysia {
+	public elysia() {
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+
+}

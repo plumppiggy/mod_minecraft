@@ -1,0 +1,6 @@
+{
+	"parent" : "item/genereated",
+	"textures" : {
+		"layer0": "elysia:item/example"
+	}
+}
