@@ -1,0 +1,5 @@
+{
+	"item.elysia.example_item" : "Example Item",
+	"itemGroup.elysia" : "elysia Tab",
+	"block.elysia.example_block": "Example Block"
+}

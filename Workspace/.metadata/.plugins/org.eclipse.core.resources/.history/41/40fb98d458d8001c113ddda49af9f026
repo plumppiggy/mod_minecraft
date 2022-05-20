@@ -1,0 +1,5 @@
+package com.Elysia.elysia.common.material;
+
+public enum CustomToolMaterial {
+
+}

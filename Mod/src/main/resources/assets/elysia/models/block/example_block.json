@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent":"block/cube_all",
 	"textures": {
-		"all": "elysia:block/example_block"
-	}
+		"all":"elysia:block/example_block"
+		}
 }
+	

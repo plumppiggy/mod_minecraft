@@ -1,5 +1,8 @@
 package com.Elysia.elysia;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.Elysia.elysia.init.blockInit;
 import com.Elysia.elysia.init.itemInit;
 
@@ -15,6 +18,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("elysia")
 public class elysia {
 	public static final String MOD_ID = "elysia";
+	
+	private static final Logger LOGGER = LogManager.getLogger();
 	
 	public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab(MOD_ID) {
 		@Override
@@ -32,5 +37,6 @@ public class elysia {
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
+
 
 }

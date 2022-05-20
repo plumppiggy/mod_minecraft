@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"III",
+		"I I",
+		"III"
+	],
+	"key": {
+		"I" : {
+			"tag":"elysia:cool_items"
+		}
+	},
+	"result": {
+		"item": "elysia:example_block",
+		"count": 1
+	}
+}

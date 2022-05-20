@@ -1,0 +1,25 @@
+package com.Elysia.elysia.init;
+
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.OreFeature;
+import net.minecraft.world.level.levelgen.placement.CountPlacement;
+import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
+
+public class FeatureInit {
+	
+	public static void addOres(final BiomeLoadingEvent event) {
+		addOre(event, OreFeature.ORE.,
+				blockInit.BRUV_ORE.get(), 4, 0, 60, 20);
+	}
+	
+	public static void addOre(final BiomeLoadingEvent event, RuleTest rule, BlockState state, int veinSize, 
+			int minHeight, int maxHeight, int amount) {
+		event.getGeneration().withFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+				Feature.ORE.withConfiguration(new OreFeatureConfig(rule, state, veinSize))
+				.withPlacement(CountPlacement.RANGE.configure(new TopSolidRangeConfig(minHeight, 0, maxHeight)))
+				.square().func_242731_b(amount));
+	}
+
+}

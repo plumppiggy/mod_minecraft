@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"elysia:example_block",
+		"minecraft:diamond_ore"
+	]
+}

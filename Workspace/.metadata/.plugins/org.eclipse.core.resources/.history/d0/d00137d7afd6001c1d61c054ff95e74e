@@ -1,0 +1,5 @@
+package com.Elysia.elysia.client;
+
+public class clientEventBusSubscriber {
+
+}

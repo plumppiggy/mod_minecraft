@@ -1,0 +1,13 @@
+{
+	"type":"minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "elysia:example_block"
+		}
+	],
+	"result": {
+		"item": "elysia:example_item",
+		"count": 8
+		}
+}
+	

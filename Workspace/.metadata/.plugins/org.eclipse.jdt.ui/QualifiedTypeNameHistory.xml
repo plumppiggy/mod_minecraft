@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.CreativeModeTab"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.api.distmarker.Dist"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.api.distmarker.OnlyIn"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.ItemStack"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
+    <fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.registries.RegistryObject"/>
+    <fullyQualifiedTypeName name="com.google.common.base.Supplier"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.init.itemInit"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.IEventBus"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.material.MaterialColor"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.Item.Properties"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.material.Material"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.BlockItem"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.item.exampleItem"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.Items"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.block.exampleBlock"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.block.Blocks"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.block.SoundType"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.block.HorizontalDirectionalBlock"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.block.state.properties.BooleanProperty"/>
+    <fullyQualifiedTypeName name="net.minecraft.core.Direction"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.phys.shapes.VoxelShape"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.phys.shapes.Shapes"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.ItemBlockRenderTypes"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.init.blockInit"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.RenderType"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.food.FoodProperties.Builder"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.food.FoodProperties"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.effect.MobEffects"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.effect.MobEffectInstance"/>
+    <fullyQualifiedTypeName name="net.minecraft.tags.BlockTags"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.elysia"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.level.block.Block"/>
+    <fullyQualifiedTypeName name="com.mojang.datafixers.types.templates.Tag"/>
+    <fullyQualifiedTypeName name="net.minecraft.tags.ItemTags"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.init.tagInit"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.Item"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.SwordItem"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
+</qualifiedTypeNameHistroy>
