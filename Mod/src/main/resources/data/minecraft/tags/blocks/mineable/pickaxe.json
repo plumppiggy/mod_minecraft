@@ -1,6 +1,7 @@
 {
 	"replace":false,
 	"values": [
-		"elysia:example_block"
+		"elysia:example_block",
+		"elysia:bruv_ore"
 	]
 }

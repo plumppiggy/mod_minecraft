@@ -1,0 +1,17 @@
+package com.Elysia.elysia.setup;
+
+import com.Elysia.elysia.elysia;
+
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+
+@Mod.EventBusSubsriber(modid = elysia.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ClientSetup {
+	public static void init(FMLClientSetupEvent event) {
+		MinecraftForge.EVENT_BUS.addListener(KeyInputHandler::onKeyInput);
+		KeyBindings.init();
+		
+	}
+
+}

@@ -1,0 +1,34 @@
+package com.Elysia.elysia.worldgen.ores;
+
+import net.minecraft.data.worldgen.features.OreFeatures;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
+import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
+import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.placement.CountPlacement;
+import net.minecraft.world.level.levelgen.placement.HeightRangePlacement;
+import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
+import net.minecraft.core.Holder;
+import java.util.List;
+
+import com.Elysia.elysia.setup.Registration;
+
+
+public class Ores {
+	
+	public static List<PlacedFeature> OREGEN;
+	
+	public static void registerConfiguredFeatures() {
+		OreConfiguration mysteriousConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.BRUV_ORE.get().defaultBlockState(),
+				OresConfig.MYSTERIOUS_VEINSIZE.get());
+		OREGEN = registerPlacedFeature("bruv_ore", new ConfiguredFeature<>(Feature.ORE, mysteriousConfig),
+				CountPlacement.of(OresConfig.MYSTERIOUS_AMOUNT.get()),
+				InSquarePlacement.spread(),
+				new DimensionBiomeFilter(key -> !Dimension.MYSTERIOUS.equals(key)),
+				HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(90)));
+	
+	}
+	private static <C extends FeatureConfiguration, F extends Feature<C>> Holder
+
+}

@@ -1,0 +1,10 @@
+{
+	"itemGroup.elysia":"Elysia's Tab",
+	
+	"item.elysia.example_item": "Example Item",
+	"item.elysia.shiv":"Shiv",
+	"block.elysia.example_block":"Example Block",
+	"block.elysia.rotatable_block":"ugly thing",
+	"block.elysia.bruv_ore":"Bruv Ore"
+	
+}
