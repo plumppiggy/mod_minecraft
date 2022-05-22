@@ -1,13 +1,20 @@
 package com.Elysia.elysia.setup;
 
+import com.Elysia.elysia.elysia;
+import com.Elysia.elysia.command.GoHomeCommand;
+import com.Elysia.elysia.command.SetHomeCommand;
 import com.Elysia.elysia.worldgen.ores.Ores;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.RegisterCommandsEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.server.command.ConfigCommand;
 
 public class ModSetup {
 	
@@ -31,6 +38,8 @@ public class ModSetup {
 			Ores.registerConfiguredFeatures();
 		});
 	}
+	
+	
 	
 
 }

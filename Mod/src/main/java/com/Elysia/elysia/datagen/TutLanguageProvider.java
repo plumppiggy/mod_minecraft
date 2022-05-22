@@ -14,7 +14,7 @@ public class TutLanguageProvider extends LanguageProvider {
 	@Override
 	protected void addTranslations() {
 		add("itemGroup.elysia", "Elysia");
-		add(Registration.BRUV_ORE.get(), "Bruv Ore");
+		add(Registration.ELYSIUM_ORE.get(), "Elysia Ore");
 	}
 
 	

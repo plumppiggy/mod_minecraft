@@ -14,7 +14,7 @@ public class TutBlockStates extends BlockStateProvider {
 	
 	@Override
 	protected void registerStatesAndModels() {
-		simpleBlock(Registration.BRUV_ORE.get());
+		simpleBlock(Registration.ELYSIUM_ORE.get());
 	}
 
 	

@@ -5,6 +5,8 @@
 	"item.elysia.shiv":"Shiv",
 	"block.elysia.example_block":"Example Block",
 	"block.elysia.rotatable_block":"ugly thing",
-	"block.elysia.bruv_ore":"Bruv Ore"
+	"block.elysia.elysium_ore":"Elysium Ore",
+	
+	"command.gohomecommand.usage":"/home"
 	
 }

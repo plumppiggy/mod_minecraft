@@ -16,6 +16,6 @@ public class TutItemModels extends ItemModelProvider {
 	@Override
 	protected void registerModels() {
 
-		withExistingParent(Registration.BRUV_ORE.get().getRegistryName().getPath(), modLoc("block/bruv_ore"));
+		withExistingParent(Registration.ELYSIUM_ORE.get().getRegistryName().getPath(), modLoc("block/bruv_ore"));
 	}
 }

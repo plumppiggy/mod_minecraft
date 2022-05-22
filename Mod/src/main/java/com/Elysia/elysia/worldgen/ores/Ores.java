@@ -29,9 +29,9 @@ public class Ores {
 	public static PlacedFeature OREGEN;
 	
 	public static void registerConfiguredFeatures() {
-		OreConfiguration mysteriousConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.BRUV_ORE.get().defaultBlockState(),
+		OreConfiguration mysteriousConfig = new OreConfiguration(OreFeatures.STONE_ORE_REPLACEABLES, Registration.ELYSIUM_ORE.get().defaultBlockState(),
 				OresConfig.MYSTERIOUS_VEINSIZE.get());
-		OREGEN = registerPlacedFeature("bruv_ore", Feature.ORE.configured(mysteriousConfig),
+		OREGEN = registerPlacedFeature("elysium_ore", Feature.ORE.configured(mysteriousConfig),
 				CountPlacement.of(3),
 				InSquarePlacement.spread(),
 				BiomeFilter.biome(),

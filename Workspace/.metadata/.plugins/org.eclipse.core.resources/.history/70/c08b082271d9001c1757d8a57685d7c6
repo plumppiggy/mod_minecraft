@@ -1,0 +1,21 @@
+package com.Elysia.elysia.command;
+
+import com.mojang.brigadier.CommandDispatcher;
+import com.mojang.brigadier.tree.LiteralCommandNode;
+
+import net.minecraft.commands.CommandSource;
+import net.minecraft.commands.Commands;
+
+public class ModCommands {
+
+	public static void register(CommandDispatcher<CommandSource> dispatcher) {
+        LiteralCommandNode<CommandSource> cmdTut = dispatcher.register(
+                Commands.literal(elysia.MODID)
+                        .then(CommandTest.register(dispatcher))
+                        .then(CommandTpDim.register(dispatcher))
+                        .then(CommandSpawner.register(dispatcher))
+        );
+
+        dispatcher.register(Commands.literal("tut").redirect(cmdTut));
+    }
+}
