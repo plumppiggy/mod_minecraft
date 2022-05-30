@@ -1,0 +1,12 @@
+{
+	"itemGroup.elysia":"Elysia Tab",
+	
+	"item.elysia.shiv":"Shiv",
+	"item.elysia.raw_elysium": "Raw Elysium",
+	"item.elysia.elysium_ingot":"Elysium Ingot",
+	
+	"block.elysia.elysium_ore":"Elysium Ore",
+	"block.elysia.toaster": "Toaster"
+	
+	
+}

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="net.minecraft.world.item.Tier"/>
-    <fullyQualifiedTypeName name="net.minecraft.world.item.SwordItem"/>
-    <fullyQualifiedTypeName name="com.Elysia.elysia.world.gen.ModOreGeneration"/>
-    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
-    <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
-    <fullyQualifiedTypeName name="net.minecraftforge.event.world.BiomeLoadingEvent"/>
-    <fullyQualifiedTypeName name="net.minecraft.world.level.levelgen.feature.OreFeature"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.block.oreBlock"/>
     <fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig"/>
     <fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig.Type"/>
@@ -51,7 +44,6 @@
     <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus"/>
     <fullyQualifiedTypeName name="net.minecraftforge.forge.event.lifecycle.GatherDataEvent"/>
     <fullyQualifiedTypeName name="net.minecraft.data.DataGenerator"/>
-    <fullyQualifiedTypeName name="com.Elysia.elysia.elysia"/>
     <fullyQualifiedTypeName name="net.minecraftforge.client.model.generators.BlockStateProvider"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.setup.Registration"/>
     <fullyQualifiedTypeName name="net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="net.minecraft.world.item.Tiers"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Item"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Item.Properties"/>
+    <fullyQualifiedTypeName name="net.minecraft.core.BlockPos"/>
+    <fullyQualifiedTypeName name="com.mojang.brigadier.CommandDispatcher"/>
+    <fullyQualifiedTypeName name="net.minecraft.commands.CommandSourceStack"/>
+    <fullyQualifiedTypeName name="net.minecraft.commands.Commands"/>
+    <fullyQualifiedTypeName name="net.minecraft.server.level.ServerPlayer"/>
+    <fullyQualifiedTypeName name="net.minecraft.network.chat.TextComponent"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.command.GoHomeCommand"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.elysia"/>
 </qualifiedTypeNameHistroy>

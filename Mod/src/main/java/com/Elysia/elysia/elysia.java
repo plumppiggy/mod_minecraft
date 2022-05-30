@@ -3,14 +3,20 @@ package com.Elysia.elysia;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.Elysia.elysia.setup.ClientSetup;
-import com.Elysia.elysia.setup.ModSetup;
-import com.Elysia.elysia.setup.Registration;
+import com.Elysia.elysia.block.ModBlocks;
+import com.Elysia.elysia.block.entity.ModBlockEntities;
+import com.Elysia.elysia.item.ModItems;
+import com.Elysia.elysia.recipe.ModRecipes;
+import com.Elysia.elysia.screen.ModMenuTypes;
+import com.Elysia.elysia.screen.ToasterScreen;
 
-import net.minecraftforge.api.distmarker.Dist;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("elysia")
@@ -22,11 +28,28 @@ public class elysia {
 
 
 	public elysia() {
-		Registration.init();
-		
 		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
-		modbus.addListener(ModSetup::init);
-		DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> modbus.addListener(ClientSetup::init));
+		
+		ModMenuTypes.register(modbus);
+		ModItems.register(modbus);
+		ModBlocks.register(modbus);
+		ModRecipes.register(modbus);
+		ModBlockEntities.register(modbus);
+		
+		modbus.addListener(this::setup);
+		modbus.addListener(this::clientSetup);
+		
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+	
+	private void clientSetup(final FMLClientSetupEvent event) {
+		ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOASTER.get(), RenderType.cutout());
+		
+		MenuScreens.register(ModMenuTypes.TOASTER_MENU.get(), ToasterScreen::new);
+	}
+	
+	private void setup(final FMLClientSetupEvent event) {
+		
 	}
 
 

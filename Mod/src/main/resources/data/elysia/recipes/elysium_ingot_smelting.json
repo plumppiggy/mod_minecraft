@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item" : "elysia:raw_elysium"
+	},
+	"result":"elysia:elysium_ingot",
+	"experience":1.2,
+	"cookingtime" : 230
+}
+	

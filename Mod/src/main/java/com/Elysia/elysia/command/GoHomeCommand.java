@@ -12,9 +12,9 @@ import net.minecraft.server.level.ServerPlayer;
 public class GoHomeCommand {
 	
 	public static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
-		dispatcher.register(Commands.literal("home").then(Commands.literal("go").executes((command) -> {
+		dispatcher.register(Commands.literal("home").executes((command) -> {
 			return goHome(command.getSource());
-		})));
+		}));
 	}
 	/*
 	public GoHomeCommand(CommandDispatcher<CommandSourceStack> dispatcher) {
