@@ -1,9 +1,0 @@
-{
-	"type":"minecraft:smelting",
-	"ingredient": {
-		"item":"elysia:raw_bruv"
-	},
-	"result": "minecraft:diamond",
-	"experience":0.2,
-	"cookingtime":200
-}

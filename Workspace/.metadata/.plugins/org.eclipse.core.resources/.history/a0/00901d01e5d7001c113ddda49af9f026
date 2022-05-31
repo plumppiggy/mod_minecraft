@@ -1,7 +1,0 @@
-{ 
-	"variants" : {
-		"": {
-			"model": "elysia:block/example_block"
-		}
-	}
-}

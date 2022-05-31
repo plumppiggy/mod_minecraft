@@ -51,7 +51,6 @@
     <fullyQualifiedTypeName name="com.Elysia.elysia.setup.ClientSetup"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Tiers"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Item"/>
-    <fullyQualifiedTypeName name="net.minecraft.world.item.Item.Properties"/>
     <fullyQualifiedTypeName name="net.minecraft.core.BlockPos"/>
     <fullyQualifiedTypeName name="com.mojang.brigadier.CommandDispatcher"/>
     <fullyQualifiedTypeName name="net.minecraft.commands.CommandSourceStack"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="net.minecraft.network.chat.TextComponent"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.command.GoHomeCommand"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.elysia"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.item.Item.Properties"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"item" : "elysia:elysium_ingot"
+		},
+		"title": "Elysia",
+		"description": "AYOOOO thats mine",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"background" : "elysia:textures/block/raw_elysium.png"
+	},
+	"criteria": {
+		"requirement" : {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"elysia:raw_elysium"
+						]
+					}
+				]
+			}
+		}
+	}
+}
+		
