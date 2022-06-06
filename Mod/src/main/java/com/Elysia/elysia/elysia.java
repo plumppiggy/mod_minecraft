@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.Elysia.elysia.block.ModBlocks;
 import com.Elysia.elysia.block.entity.ModBlockEntities;
+import com.Elysia.elysia.enchantment.ModEnchantments;
 import com.Elysia.elysia.item.ModItems;
 import com.Elysia.elysia.recipe.ModRecipes;
 import com.Elysia.elysia.screen.ModMenuTypes;
@@ -30,6 +31,7 @@ public class elysia {
 	public elysia() {
 		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
 		
+		ModEnchantments.register(modbus);
 		ModMenuTypes.register(modbus);
 		ModItems.register(modbus);
 		ModBlocks.register(modbus);

@@ -1,0 +1,15 @@
+{
+	"itemGroup.elysiatab": "Elysia's Stuff",
+	
+	"item.elysia.shiv":"Shiv",
+	"item.elysia.bolt":"Bolt",
+	"item.elysia.raw_elysium": "Raw Elysium",
+	"item.elysia.elysium_ingot":"Elysium Ingot",
+	
+	"block.elysia.elysium_ore":"Elysium Ore",
+	"block.elysia.toaster": "Toaster",
+	
+	"enchantment.elysia.lightning_strike":"Zeus' Lightning"
+	
+	
+}

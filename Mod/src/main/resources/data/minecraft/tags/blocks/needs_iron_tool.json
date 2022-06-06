@@ -1,7 +1,6 @@
 {
 	"replace":false,
 	"values": [
-		"elysia:example_block",
 		"elysia:elysium_ore"
 	]
 }
