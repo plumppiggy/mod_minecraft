@@ -1,0 +1,21 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"  B",
+		" B ",
+		"I  "
+	],
+	"key": {
+		"I" : {
+			"block":"minecraft:stone"
+		},
+		"B" : {
+			"item":"elysia:elysium_ingot"
+		}
+	},
+	"result": {
+		"item": "elysia:bolt",
+		"count": 1
+	},
+	"nbt": "{Enchantments:[{id:lightning_strike, lvl:1}]}"
+}

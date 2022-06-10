@@ -7,7 +7,7 @@
 	],
 	"key": {
 		"I" : {
-			"tag":"minecraft:stone"
+			"item":"minecraft:stick"
 		},
 		"B" : {
 			"item":"elysia:elysium_ingot"

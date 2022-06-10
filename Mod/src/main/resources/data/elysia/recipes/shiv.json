@@ -6,11 +6,11 @@
 		"I  "
 	],
 	"key": {
-		"I" : {
-			"tag":"elysia:cool_items"
-		},
 		"B" : {
-			"item":"minecraft:stone"
+			"item":"elysia:elysium_ingot"
+		},
+		"I" : {
+			"item":"minecraft:stick"
 		}
 	},
 	"result": {

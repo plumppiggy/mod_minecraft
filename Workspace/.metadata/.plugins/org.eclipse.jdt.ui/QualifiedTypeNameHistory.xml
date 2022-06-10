@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.Elysia.elysia.block.oreBlock"/>
-    <fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig"/>
-    <fullyQualifiedTypeName name="net.minecraftforge.fml.config.ModConfig.Type"/>
-    <fullyQualifiedTypeName name="net.minecraft.world.item.Items"/>
     <fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
     <fullyQualifiedTypeName name="net.minecraftforge.eventbus.api.IEventBus"/>
     <fullyQualifiedTypeName name="net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent"/>
-    <fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
     <fullyQualifiedTypeName name="net.minecraft.world.level.block.Block"/>
-    <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
     <fullyQualifiedTypeName name="net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext"/>
     <fullyQualifiedTypeName name="net.minecraft.world.level.block.state.BlockBehaviour.Properties"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.setup.ModSetup"/>
@@ -51,13 +45,19 @@
     <fullyQualifiedTypeName name="com.Elysia.elysia.setup.ClientSetup"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Tiers"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Item"/>
-    <fullyQualifiedTypeName name="net.minecraft.core.BlockPos"/>
     <fullyQualifiedTypeName name="com.mojang.brigadier.CommandDispatcher"/>
     <fullyQualifiedTypeName name="net.minecraft.commands.CommandSourceStack"/>
     <fullyQualifiedTypeName name="net.minecraft.commands.Commands"/>
     <fullyQualifiedTypeName name="net.minecraft.server.level.ServerPlayer"/>
     <fullyQualifiedTypeName name="net.minecraft.network.chat.TextComponent"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.command.GoHomeCommand"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.entity.EntityType"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.entity.MobSpawnType"/>
+    <fullyQualifiedTypeName name="net.minecraft.core.BlockPos"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.registries.DeferredRegister"/>
+    <fullyQualifiedTypeName name="net.minecraftforge.registries.ForgeRegistries"/>
     <fullyQualifiedTypeName name="com.Elysia.elysia.elysia"/>
+    <fullyQualifiedTypeName name="net.minecraft.world.entity.EquipmentSlot.Type"/>
+    <fullyQualifiedTypeName name="com.Elysia.elysia.enchantment.ModEnchantments"/>
     <fullyQualifiedTypeName name="net.minecraft.world.item.Item.Properties"/>
 </qualifiedTypeNameHistroy>

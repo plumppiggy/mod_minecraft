@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		" B ",
+		"I  "
+	],
+	"key": {
+		"I" : {
+			"item":"elysia:elysium_ingot"
+		},
+		"B" : {
+			"item":"minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "elysia:shiv",
+		"count": 1
+	}
+}
