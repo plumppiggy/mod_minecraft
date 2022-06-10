@@ -12,6 +12,7 @@ import com.Elysia.elysia.item.ModItems;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -19,6 +20,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.OreBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,8 +36,8 @@ public class ModBlocks {
 			() -> new ToasterBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.TAB);
 
 	public static final RegistryObject<Block> ELYSIUM_ORE = registerBlock("elysium_ore",
-			() -> new Block(BlockBehaviour.Properties.of(Material.AMETHYST).strength(5f)
-					.requiresCorrectToolForDrops()), ModCreativeModeTab.TAB);
+			() -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE).strength(5f)
+					.requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModeTab.TAB);
 	
 	
 	@SuppressWarnings("unused")

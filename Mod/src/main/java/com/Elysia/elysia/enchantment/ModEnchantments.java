@@ -18,6 +18,10 @@ public class ModEnchantments {
 			ENCHANTMENTS.register("lightning_strike", 
 					() -> new LightningStrike(Enchantment.Rarity.UNCOMMON, EnchantmentCategory.WEAPON, EquipmentSlot.MAINHAND));
 	
+	public static RegistryObject<Enchantment> SHEEP_ATTACK = 
+			ENCHANTMENTS.register("sheep_attack", () -> new SheepAttack(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.WEAPON, 
+					EquipmentSlot.MAINHAND));
+	
 	public static void register(IEventBus bus) {
 		ENCHANTMENTS.register(bus);
 	}
